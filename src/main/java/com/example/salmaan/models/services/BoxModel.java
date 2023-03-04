@@ -36,7 +36,7 @@ public class BoxModel implements Repo<Box> {
         Statement statement = connection.createStatement();
         statement.executeUpdate(boxQuery);
 
-      //  box.setReady(box.isReady());
+        //  box.setReady(box.isReady());
         System.out.println(box.isReady() ? "box made false " : "box made true");
 
     }
