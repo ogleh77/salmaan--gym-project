@@ -1,11 +1,12 @@
-package com.example.salmaan.models;
+package com.example.salmaan.models.main;
 
-import com.example.salmaan.dao.BoxService;
+import com.example.salmaan.dao.services.BoxService;
 import com.example.salmaan.entity.main.PaymentBuilder;
 import com.example.salmaan.entity.main.Payments;
 import com.example.salmaan.entity.service.Box;
 import com.example.salmaan.entity.service.Pending;
 import com.example.salmaan.helpers.DbConnection;
+import com.example.salmaan.models.services.DailyReportDTO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

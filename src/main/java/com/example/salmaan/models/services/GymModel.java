@@ -1,6 +1,6 @@
-package com.example.salmaan.models;
+package com.example.salmaan.models.services;
 
-import com.example.salmaan.dao.BoxService;
+import com.example.salmaan.dao.services.BoxService;
 import com.example.salmaan.entity.service.Gym;
 import com.example.salmaan.helpers.DbConnection;
 

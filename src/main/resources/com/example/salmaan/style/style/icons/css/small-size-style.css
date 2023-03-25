@@ -1,0 +1,67 @@
+.small-pane {
+    -fx-background-color: white;
+    -fx-pref-width: 596;
+    -fx-pref-height: 434;
+}
+.notify-pane {
+    -fx-background-color: white;
+    -fx-pref-width: 596;
+    -fx-pref-height: 540;
+}
+.searchPane {
+    -fx-background-color: white;
+    -fx-pref-width: 706;
+    -fx-pref-height: 434;
+}
+
+.top-pane {
+    -fx-background-color: #2B4865;
+}
+
+.top-label {
+    -fx-text-fill: #c6d0cd;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 16;
+}
+
+.cancel-pane:hover {
+    -fx-background-color: #b71818;
+}
+
+.password-field {
+    -fx-background-color: #F6F6F6;
+    -fx-border-color: #3a6188;
+    -fx-border-width: 0.5;
+}
+
+.combo-box-base {
+    -fx-background-color: #F6F6F6;
+    -fx-border-color: #3a6188;
+}
+
+.btn-login {
+    -fx-background-color: #2B4865;
+    -fx-text-fill: white;
+}
+
+.btn-login:hover {
+    -fx-background-color: #3a6188;
+    -fx-cursor: hand;
+}
+
+
+.label-background {
+    -fx-background-color: #dae0da;
+    -fx-text-fill: #328ca8;
+    -fx-font-family: Helvetica;
+    -fx-font-size: 18;
+}
+
+.text-field {
+    -fx-background-color: #F6F6F6;
+    -fx-prompt-text-fill: gray;
+    -fx-text-fill: black;
+    -fx-font-family: Arial;
+    -fx-border-color: #3a6188;
+    -fx-border-width: 0.5;
+}

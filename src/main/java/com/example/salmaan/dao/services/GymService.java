@@ -1,8 +1,8 @@
-package com.example.salmaan.dao;
+package com.example.salmaan.dao.services;
 
 import com.example.salmaan.entity.service.Gym;
 import com.example.salmaan.helpers.CustomException;
-import com.example.salmaan.models.GymModel;
+import com.example.salmaan.models.services.GymModel;
 
 import java.sql.SQLException;
 

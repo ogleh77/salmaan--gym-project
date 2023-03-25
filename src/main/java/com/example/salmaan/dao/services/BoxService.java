@@ -1,7 +1,7 @@
-package com.example.salmaan.dao;
+package com.example.salmaan.dao.services;
 
 import com.example.salmaan.entity.service.Box;
-import com.example.salmaan.models.BoxModel;
+import com.example.salmaan.models.services.BoxModel;
 import javafx.collections.ObservableList;
 
 import java.sql.SQLException;

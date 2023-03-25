@@ -1,11 +1,10 @@
-package com.example.salmaan.dao;
+package com.example.salmaan.dao.main;
 
-import com.example.salmaan.entity.Customers;
+import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.entity.main.Payments;
-import com.example.salmaan.entity.service.Box;
 import com.example.salmaan.entity.service.Pending;
 import com.example.salmaan.helpers.CustomException;
-import com.example.salmaan.models.PaymentModel;
+import com.example.salmaan.models.main.PaymentModel;
 import javafx.collections.ObservableList;
 
 import java.sql.SQLException;
