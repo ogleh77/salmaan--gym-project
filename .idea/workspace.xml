@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e30231c4-bc6c-41d1-bd2c-a895deaa5399" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/main/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/main/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/services/BoxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/services/BoxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/services/GymService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/dao/services/GymService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/PaymentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/PaymentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/services/BoxModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/services/BoxModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/services/GymModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/services/GymModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/info/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/main/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/service/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/info/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/main/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/SplashScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers/service/SplashScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/entity/main/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/entity/main/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/CustomerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/customer-card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/info/customer-card.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/main/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/service/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/info/notifications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/payments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/main/payments.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/splash-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/service/splash-screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/CustomerModel.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/salmaan/models/main/PaymentModel.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,7 +66,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "/Users/mrd/Desktop/Desktop/salmaan/src/main/resources/com/example/salmaan/style/views",
+    "last_opened_file_path": "/Users/mrd/Desktop/Desktop/salmaan/src/main/java/com/example/salmaan/controllers",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -70,16 +82,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/style/icons/icons" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/salmaan/helpers" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/salmaan/controllers" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/service" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/main" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/views/info" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/style/icons/icons" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/salmaan/style/icons/icons" />
     </key>
@@ -215,7 +230,7 @@
       <workItem from="1677914371474" duration="6920000" />
       <workItem from="1677926604447" duration="4000000" />
       <workItem from="1677948211772" duration="6619000" />
-      <workItem from="1677993272280" duration="4506000" />
+      <workItem from="1677993272280" duration="7917000" />
     </task>
     <servers />
   </component>

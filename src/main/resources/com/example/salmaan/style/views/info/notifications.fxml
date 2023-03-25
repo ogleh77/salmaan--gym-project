@@ -11,14 +11,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="518.0" prefWidth="468.0" styleClass="notify-pane" stylesheets="@../style/icons/css/small-size-style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salmaan.controllers.NotificationController">
+<AnchorPane prefHeight="518.0" prefWidth="468.0" styleClass="notify-pane" stylesheets="@../../style/icons/css/small-size-style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salmaan.controllers.info.NotificationController">
     <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="596.0" spacing="180.0" styleClass="top-pane">
         <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="342.0">
             <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                 <HBox.margin>
                     <Insets left="10.0" />
                 </HBox.margin>
-                <Image url="@../style/icons/icons/icons8-bell-48.png" />
+                <Image url="@../../style/icons/icons/icons8-bell-48.png" />
             </ImageView>
             <Label prefHeight="29.0" prefWidth="126.0" styleClass="top-label" text="Notifications">
                 <HBox.margin>
@@ -31,7 +31,7 @@
                 <Insets left="25.0" />
             </HBox.margin>
             <ImageView fitHeight="32.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
-                <Image url="@../style/icons/icons/icons8-close-30.png" />
+                <Image url="@../../style/icons/icons/icons8-close-30.png" />
             </ImageView>
         </HBox>
     </HBox>

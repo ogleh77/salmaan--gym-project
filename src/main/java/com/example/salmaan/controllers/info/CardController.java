@@ -1,4 +1,4 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.info;
 
 import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.helpers.CommonClass;
@@ -55,7 +55,7 @@ public class CardController extends CommonClass implements Initializable {
     @FXML
     void updateHandler(ActionEvent event) throws IOException {
         notificationStage.close();
-        openWindow("/com/example/salmaan/style/views/payments.fxml", borderPane, sidePane, menuBox, HBoxProfile);
+        openWindow("/com/example/salmaan/style/views/main/payments.fxml", borderPane, sidePane, menuBox, HBoxProfile);
     }
 
     @Override

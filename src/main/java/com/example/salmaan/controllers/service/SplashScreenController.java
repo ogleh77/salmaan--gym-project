@@ -1,6 +1,7 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.service;
 
 import animatefx.animation.FadeOut;
+import com.example.salmaan.controllers.main.DashboardController;
 import com.example.salmaan.dao.main.CustomerService;
 import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.entity.main.Payments;
@@ -101,7 +102,7 @@ public class SplashScreenController extends CommonClass implements Initializable
 
 
     private void openDashboard() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/dashboard.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/main/dashboard.fxml"));
         Scene scene = new Scene(loader.load());
         DashboardController controller = loader.getController();
         controller.setActiveUser(activeUser);

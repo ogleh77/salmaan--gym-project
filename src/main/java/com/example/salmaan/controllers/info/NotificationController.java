@@ -1,4 +1,4 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.info;
 
 import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.helpers.CommonClass;
@@ -11,7 +11,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
@@ -31,7 +30,7 @@ public class NotificationController extends CommonClass implements Initializable
             FXMLLoader loader;
             AnchorPane anchorPane;
             for (Customers customer : outdatedCustomers) {
-                loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/customer-card.fxml"));
+                loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/info/customer-card.fxml"));
                 try {
                     anchorPane = loader.load();
                     CardController controller = loader.getController();

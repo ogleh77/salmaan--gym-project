@@ -42,8 +42,24 @@ public class CustomerModel implements Repo<Customers> {
             String customerPhone = rs.getString("phone");
             ObservableList<Payments> payments = PaymentService.fetchAllCustomersPayments(customerPhone);
 
-            getCustomers(customers, rs, payments);
+            Customers customer = new CustomerBuilder()
+                    .setCustomerId(rs.getInt("customer_id"))
+                    .setFirstName(rs.getString("first_name"))
+                    .setMiddleName(rs.getString("middle_name"))
+                    .setLastName(rs.getString("last_name"))
+                    .setGander(rs.getString("gander"))
+                    .setAddress(rs.getString("address"))
+                    .setPhone(rs.getString("phone"))
+                    .setImage(rs.getString("image"))
+                    .setWhoAdded(rs.getString("who_added"))
+                    .setWeight(rs.getDouble("weight")).build();
 
+            customer.setPayments(payments);
+            customer.getInformation();
+            customer.getUpdate();
+            customer.getPaymentBtn();
+
+            customers.add(customer);
         }
 
         rs.close();
@@ -92,7 +108,6 @@ public class CustomerModel implements Repo<Customers> {
             }
 
             getCustomers(customers, rs, payments);
-
         }
         rs.close();
         statement.close();

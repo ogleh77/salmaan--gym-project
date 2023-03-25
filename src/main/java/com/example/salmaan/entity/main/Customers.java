@@ -1,5 +1,6 @@
 package com.example.salmaan.entity.main;
 
+import com.jfoenix.controls.JFXButton;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -16,6 +17,10 @@ public class Customers implements Comparable<Customers> {
     private final double weight;
     private final String whoAdded;
     private ObservableList<Payments> payments;
+
+    private JFXButton update;
+    private JFXButton paymentBtn;
+    private JFXButton information;
 
     public void setPayments(ObservableList<Payments> payments) {
         this.payments = payments;
@@ -82,6 +87,31 @@ public class Customers implements Comparable<Customers> {
 
     public ObservableList<Payments> getPayments() {
         return payments;
+    }
+
+    public JFXButton getInformation() {
+        if (information == null) {
+            information = new JFXButton("information");
+            information.setStyle("-fx-background-color: #1e6e66;-fx-text-fill: white;-fx-pref-width: 130;-fx-font-size: 14");
+        }
+        return information;
+    }
+
+    public JFXButton getPaymentBtn() {
+        if (paymentBtn == null) {
+            this.paymentBtn = new JFXButton("payment");
+            paymentBtn.setStyle("-fx-background-color: #145ab6;-fx-text-fill: white;-fx-pref-width: 80;-fx-font-size: 14");
+        }
+        return paymentBtn;
+    }
+
+    public JFXButton getUpdate() {
+        if (update == null) {
+            update = new JFXButton("update");
+            this.update = new JFXButton("update");
+            update.setStyle("-fx-background-color: dodgerblue;-fx-text-fill: white;-fx-pref-width: 80;-fx-font-size: 14");
+        }
+        return update;
     }
 
     @Override

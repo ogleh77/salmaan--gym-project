@@ -1,4 +1,4 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.main;
 
 import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.entity.main.Payments;

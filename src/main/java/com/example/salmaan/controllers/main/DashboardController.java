@@ -1,8 +1,10 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.main;
 
 import animatefx.animation.FadeOut;
 import animatefx.animation.SlideInLeft;
 import animatefx.animation.SlideOutLeft;
+import com.example.salmaan.controllers.SearchController;
+import com.example.salmaan.controllers.info.NotificationController;
 import com.example.salmaan.entity.main.Customers;
 import com.example.salmaan.entity.service.Gym;
 import com.example.salmaan.entity.service.Users;
@@ -18,7 +20,6 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.shape.Circle;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -111,7 +112,23 @@ public class DashboardController extends CommonClass implements Initializable {
     }
 
     @FXML
-    void searchHandler(MouseEvent event) {
+    void searchHandler(MouseEvent event) throws IOException {
+        openSearch = !openSearch;
+        Stage stage = null;
+        if (openSearch) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/search.fxml"));
+            Scene scene = new Scene(loader.load());
+            SearchController controller = loader.getController();
+            controller.setBorderPane(borderPane);
+            controller.setActiveUser(activeUser);
+            stage = new Stage();
+            stage.setScene(scene);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.show();
+        } else {
+            assert false;
+            stage.close();
+        }
 
     }
 
@@ -134,7 +151,7 @@ public class DashboardController extends CommonClass implements Initializable {
     }
 
     private void openNotifications() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/notifications.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/info/notifications.fxml"));
         Scene scene = new Scene(loader.load());
         NotificationController controller = loader.getController();
         controller.setOutdatedCustomers(outdatedCustomers);

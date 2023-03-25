@@ -1,4 +1,4 @@
-package com.example.salmaan.controllers;
+package com.example.salmaan.controllers.service;
 
 
 import animatefx.animation.FadeOut;
@@ -120,7 +120,7 @@ public class LoginController extends CommonClass implements Initializable {
 
     private void openSplash() throws IOException {
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/splash-screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/salmaan/style/views/service/splash-screen.fxml"));
         Scene scene = new Scene(loader.load());
         SplashScreenController controller = loader.getController();
         controller.setActiveUser(userNameChooser.getValue());

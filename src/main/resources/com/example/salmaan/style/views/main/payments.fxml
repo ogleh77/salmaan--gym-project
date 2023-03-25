@@ -18,7 +18,7 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" styleClass="long-pane"
-            stylesheets="@../style/icons/css/long-pane-style.css" xmlns="http://javafx.com/javafx/18"
+            stylesheets="@../../style/icons/css/long-pane-style.css" xmlns="http://javafx.com/javafx/18"
             xmlns:fx="http://javafx.com/fxml/1">
     <effect>
         <DropShadow height="12.11" radius="5.555" spread="0.01" width="12.11">
@@ -32,7 +32,7 @@
     </padding>
     <ImageView fitHeight="166.0" fitWidth="233.0" layoutX="242.0" layoutY="453.0" pickOnBounds="true"
                AnchorPane.bottomAnchor="121.0">
-        <Image url="@../style/icons/icons/535-5355451_payment-success-illustration-png-transparent-png.png"/>
+        <Image url="@../../style/icons/icons/535-5355451_payment-success-illustration-png-transparent-png.png"/>
     </ImageView>
     <Label layoutX="616.0" layoutY="168.0" text="exp date" textFill="#328ca8" AnchorPane.rightAnchor="469.0">
         <font>
@@ -52,7 +52,7 @@
             </DropShadow>
         </effect>
         <ImageView fx:id="imgView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
-            <Image url="@../style/icons/icons/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpeg"/>
+            <Image url="@../../style/icons/icons/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpeg"/>
         </ImageView>
     </VBox>
     <JFXButton fx:id="createBtn" buttonType="RAISED" layoutX="701.0" layoutY="618.0"
@@ -158,7 +158,7 @@
         </Label>
         <HBox alignment="CENTER" prefHeight="40.0" prefWidth="51.0" styleClass="cancel-pane">
             <ImageView fitHeight="26.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
-                <Image url="@../style/icons/icons/icons8-close-window-48.png"/>
+                <Image url="@../../style/icons/icons/icons8-close-window-48.png"/>
             </ImageView>
         </HBox>
     </HBox>

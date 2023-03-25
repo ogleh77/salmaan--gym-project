@@ -8,7 +8,10 @@ module com.example.salmaan {
     requires junit;
 
     opens com.example.salmaan to javafx.fxml;
-    opens com.example.salmaan.controllers to javafx.fxml;
     exports com.example.salmaan;
-    // exports com.example.salmaan.entities.main;
+    opens com.example.salmaan.controllers.main to javafx.fxml;
+    opens com.example.salmaan.controllers to javafx.fxml;
+    opens com.example.salmaan.controllers.service to javafx.fxml;
+    opens com.example.salmaan.controllers.info to javafx.fxml;
+    exports com.example.salmaan.entity.main;
 }
